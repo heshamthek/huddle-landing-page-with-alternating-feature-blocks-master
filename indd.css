@@ -1,0 +1,155 @@
+*{margin: 0%; padding: 0%;}
+.top-part{
+    background-image: url(images/bg-hero-desktop.svg);
+   
+ 
+   justify-content: space-between;
+}
+.logo1{
+padding: 30px;
+margin-top: 40px;
+}
+.buuton-1{
+
+    padding: 10px;
+    height: 25px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.071);
+    width: 200px  ;
+    float: right;
+margin-right: 20px;
+margin-top: 60px;
+text-align: center;
+border-radius: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.ss{
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: space-between;
+}
+.piccc{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    justify-content: space-around;
+}
+.imge{
+    height: 480px;
+  
+
+}
+.okkk{
+    display: flex;
+    flex-direction: column;
+   width: 600px;
+    gap: 30px;
+    margin-top: 30px;
+}
+.ttext{
+    font-size: 3.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textt{
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.549);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buut{
+    padding: 15px;
+    background: hsl(322, 100%, 66%);
+    width: fit-content;
+    font-size: 1em;
+    border-radius:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:20px;
+    width: 250px;
+    text-align: center;
+    color:white;
+}
+
+.oll{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 90px;
+    box-shadow: 1px 1px 1px 4px rgba(0, 0, 0, 0.023);
+    border-radius: 50px;
+   padding: 20px;
+   width: fit-content;
+   
+}
+.tttx{
+    width:500px;
+   align-self: center;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.iiii{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3em;
+    padding-top: 50px;
+    position: relative;
+}
+.imggge{
+    height: 320px;
+}
+.ttext2{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text2{
+    font-size: 1.1em;
+    color: rgba(0, 0, 0, 0.549);
+}
+    
+.card{
+    background: white;
+    position: absolute;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.053);
+    width: fit-content;
+    height: fit-content;
+    padding: 40px;
+    border-radius: 20px;
+    z-index: 5;
+   bottom: -300px;
+}
+
+.inside{
+display: flex;
+flex-direction: column;
+align-items: center;
+row-gap: 40px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.fooot{
+    margin-top: 200px;
+   background:#00252E;
+    height:300px;
+}
+.fot{
+    display: flex;
+    flex-wrap: wrap;
+   padding-top: 70px;
+    justify-content: space-evenly;
+    
+
+}
+.ft1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 19px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.iconnn{
+    width: 200px;
+}
+.ft2{
+    padding-top: 80px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+}
