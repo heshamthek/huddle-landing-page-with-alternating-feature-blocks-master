@@ -1,9 +1,8 @@
 *{margin: 0%; padding: 0%;}
 .top-part{
     background-image: url(images/bg-hero-desktop.svg);
-   
- 
    justify-content: space-between;
+   
 }
 .logo1{
 padding: 30px;
@@ -25,8 +24,8 @@ font-family: Arial, Helvetica, sans-serif;
 }
 .ss{
     display: flex;
-    flex-wrap: wrap;
      justify-content: space-between;
+    
 }
 .piccc{
     display: flex;
@@ -36,8 +35,6 @@ font-family: Arial, Helvetica, sans-serif;
 }
 .imge{
     height: 480px;
-  
-
 }
 .okkk{
     display: flex;
@@ -94,7 +91,7 @@ font-family: Arial, Helvetica, sans-serif;
     position: relative;
 }
 .imggge{
-    height: 320px;
+    max-height: 320px;
 }
 .ttext2{
     font-size: 2em;
@@ -127,11 +124,11 @@ font-family: Arial, Helvetica, sans-serif;
 .fooot{
     margin-top: 200px;
    background:#00252E;
-    height:300px;
+    
 }
 .fot{
     display: flex;
-    flex-wrap: wrap;
+    
    padding-top: 70px;
     justify-content: space-evenly;
     
@@ -152,4 +149,69 @@ font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 40px;
+}
+@media (max-width:600px) { 
+    .ttext{
+        font-size: 2.3em;
+       text-align: center;
+    }
+    .textt{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .top-part{
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+    }
+    .buut{
+        margin-left: 65px;
+    }
+    .inside .buut{
+        margin-right: 30px;
+    }
+    .inside h1{
+        font-size: 1.4em;
+    }
+    .imge{
+        margin-top:100px;
+        height: 300px;
+    }
+    .imgee{
+        order: -2;
+        
+    }
+    .imggge{
+        height: 200px;
+    }
+
+    .oll{
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        align-items: center;
+    }
+
+    .tttx{
+        text-align: center;
+        width: 400px;
+        
+    }
+    .ttext2{
+        font-size: 1.6em;
+       line-height: 35px;
+    }
+    .fot{
+        flex-direction: column;
+        
+       padding-top: 120px;
+    }
+    .buuton-1{
+        width: 100px;
+        font-size: 1em;
+        padding-top: 10px;
+    }
+    .logo{
+        width: 180px;
+    }
 }
