@@ -2,14 +2,12 @@
 .top-part{
     background-image: url(images/bg-hero-desktop.svg);
    justify-content: space-between;
-   
 }
 .logo1{
 padding: 30px;
 margin-top: 40px;
 }
 .buuton-1{
-
     padding: 10px;
     height: 25px;
     background-color: white;
@@ -25,7 +23,6 @@ font-family: Arial, Helvetica, sans-serif;
 .ss{
     display: flex;
      justify-content: space-between;
-    
 }
 .piccc{
     display: flex;
@@ -74,7 +71,6 @@ font-family: Arial, Helvetica, sans-serif;
     border-radius: 50px;
    padding: 20px;
    width: fit-content;
-   
 }
 .tttx{
     width:500px;
@@ -151,6 +147,7 @@ font-family: Arial, Helvetica, sans-serif;
     line-height: 40px;
 }
 @media (max-width:600px) { 
+    
     .ttext{
         font-size: 2.3em;
        text-align: center;
@@ -160,29 +157,36 @@ font-family: Arial, Helvetica, sans-serif;
         text-align: center;
     }
     .top-part{
+        overflow: hidden;
         display: flex;
         flex-direction: column;
        justify-content: center;
     }
     .buut{
-        margin-left: 65px;
+        margin-left: 30px;
+        overflow: hidden;
     }
     .inside .buut{
         margin-right: 30px;
+        overflow: hidden;
     }
     .inside h1{
         font-size: 1.4em;
+        overflow: hidden;
     }
     .imge{
         margin-top:100px;
-        height: 300px;
+        height: 260px;
+        overflow: hidden;
     }
     .imgee{
         order: -2;
+        overflow: hidden;
         
     }
     .imggge{
         height: 200px;
+        overflow: hidden;
     }
 
     .oll{
@@ -190,28 +194,33 @@ font-family: Arial, Helvetica, sans-serif;
         flex-direction: column;
         row-gap: 50px;
         align-items: center;
+        overflow: hidden;
     }
 
     .tttx{
         text-align: center;
+        overflow: hidden;
         width: 400px;
         
     }
     .ttext2{
         font-size: 1.6em;
        line-height: 35px;
+       overflow: hidden;
     }
     .fot{
         flex-direction: column;
-        
+        overflow: hidden;
        padding-top: 120px;
     }
     .buuton-1{
         width: 100px;
         font-size: 1em;
+        overflow: hidden;
         padding-top: 10px;
     }
     .logo{
         width: 180px;
+        overflow: hidden;
     }
 }
